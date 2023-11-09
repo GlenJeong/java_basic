@@ -7,7 +7,7 @@ public class ArraysSortToDown {
         int[] array = new int[5];
 
         for (int i = 0; i < array.length; i++) {
-            int numRan = (int) (Math.random() * 10) + 1;
+            int numRan = (int) (Math.random() * 8) + 1;
             array[i] = numRan;
         }
 
