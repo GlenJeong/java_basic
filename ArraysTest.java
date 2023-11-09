@@ -1,6 +1,7 @@
 package java_basic;
 
 import java.util.Arrays; // Arrays.toString()을 사용하기 위해 추가
+import java.util.UUID;
 
 class ArraysTest {
     public static void main(String[] args) {
@@ -39,6 +40,10 @@ class ArraysTest {
 
         System.out.println();
         System.out.println(Arrays.toString(chArr));
+
+        UUID uuid = UUID.randomUUID();
+        String newPassword = String.valueOf(uuid);
+        System.out.println("newPassword = " + newPassword);
     }
 
 }

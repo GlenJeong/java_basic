@@ -5,7 +5,7 @@ public class StackOverFlow {
     public static void main(String[] args) {
         System.out.println("Stack 메모리 오류");
         try {
-            int num = func(0);
+            int num = func(1);
         } catch (Error e) {
             System.out.println(e);
         }
