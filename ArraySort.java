@@ -21,7 +21,7 @@ public class ArraySort {
         int tmp = 0;
 
         for (int i = 0; i < numArr.length; i++) {
-            for (int j = 1; j < numArr.length; j++) {
+            for (int j = i+1; j < numArr.length; j++) {
 
                 if (numArr[i] < numArr[j]) {
                     tmp = numArr[i];
