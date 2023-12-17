@@ -55,6 +55,7 @@ public class ArraysMethodPractice {
         System.out.println(Arrays.equals(str2D, str2D2));
         System.out.println(Arrays.deepEquals(str2D, str2D2));
 
+<<<<<<< HEAD
         System.out.println("=========");
         for (String[] str2DArr : str2D) {
             for (String strArr : str2DArr) {
@@ -63,6 +64,8 @@ public class ArraysMethodPractice {
         }
         System.out.println("=========");
 
+=======
+>>>>>>> 31a3a38f6453fa1ce7257149996c25a01673c600
         char[] chArr = { 'A', 'D', 'C', 'B', 'E' };
 
         System.out.println("chArr = " + Arrays.toString(chArr));
