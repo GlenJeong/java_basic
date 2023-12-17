@@ -7,12 +7,12 @@ public class StarTest {
         System.out.println("*");
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 1; j++) {
-                System.out.printf("*****");
+                System.out.println("*****");
             }
-            System.out.println();
-            System.out.println();
-
         }
+
+        System.out.println();
+        System.out.println();
 
         System.out.println("1-1번");
         for (int i = 0; i < 5; i++) {
@@ -34,6 +34,9 @@ public class StarTest {
             }
             System.out.println();
         }
+
+        System.out.println();
+        System.out.println();
 
         System.out.println("2번");
         for (int i = 1; i <= 5; i++) {
@@ -128,6 +131,9 @@ public class StarTest {
             System.out.println();
         }
 
+        System.out.println();
+        System.out.println();
+
         System.out.println("6-1번");
         for (int i = 1; i <= 5; i++) {
             for (int k = 1; k <= 6; k++) {
@@ -137,7 +143,6 @@ public class StarTest {
                     System.out.print("*");
             }
             System.out.println();
-
         }
         // System.out.println("6번");
         // for(int i=1; i<=5; i++) {
@@ -281,5 +286,52 @@ public class StarTest {
             System.out.println();
         }
 
+        System.out.println();
+        System.out.println();
+
+        System.out.println("11번");
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= i + 4; j++) {
+                if (i + j < 6) {
+                    System.out.printf(" ");
+                } else {
+                    System.out.printf("*");
+                }
+            }
+            System.out.println();
+        }
+        for (int i = 1; i <= 4; i++) {
+            for (int j = 1; j <= 9; j++) {
+                if (i == j || i > j || i + j > 9) {
+                    System.out.printf(" ");
+                } else {
+                    System.out.printf("*");
+                }
+            }
+            System.out.println();
+        }
+
+        System.out.println();
+        System.out.println();
+
+        System.out.println("12번");
+        for (int i = 1; i <= 9; i++) {
+            for (int j = 1; j <= 9; j++) {
+                // System.out.printf("*");
+                System.out.printf("[" + i + "]" + "[" + j + "] ");
+            }
+            System.out.println();
+        }
+
+        for (int i = 1; i <= 9; i++) {
+            for (int j = 1; j <= 9; j++) {
+                if (i + j < 6 || i - j > 4 || i - j < -4 || i + j > 14) {
+                    System.out.printf(" ");
+                } else {
+                    System.out.printf("*");
+                }
+            }
+            System.out.println();
+        }
     }
 }
